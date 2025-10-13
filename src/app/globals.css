@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* ── Design tokens ───────────────────────────────────────── */
+@theme {
+    /* Couleurs */
+    --color-primary: #361147; /* prune chic */
+    --color-accent:  #B388EB; /* lavande */
+    --color-ink:     #0F0E12; /* texte */
+    --color-sand:    #F6F4F2; /* fond doux */
+    --color-muted:   #E8E2EE; /* surfaces claires / borders */
+
+    /* Rayons & ombres */
+    --radius-xl: 1rem;
+    --radius-2xl: 1.25rem;
+    --shadow-soft: 0 6px 24px rgba(0,0,0,.08);
+    --shadow-hover: 0 10px 30px rgba(0,0,0,.12);
+
+    /* Typo (tu pourras swapper plus tard) */
+    --font-sans: ui-sans-serif, system-ui, -apple-system, "Inter", "Segoe UI", Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* Base globale */
+:root { --ease: cubic-bezier(.22,1,.36,1); }
+html, body { @apply bg-sand text-ink antialiased; }
+
+/* Utilitaire pour titres fluides (réutilisable) */
+@utility fluid-h1 {
+    font-size: clamp(2.5rem, 6vw, 6rem);
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+}

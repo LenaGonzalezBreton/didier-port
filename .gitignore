@@ -1,0 +1,25 @@
+# deps
+node_modules/
+.pnp*
+.yarn/*
+
+# build / cache
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# env
+.env*
+
+# vercel
+.vercel/
+
+# next typings
+next-env.d.ts

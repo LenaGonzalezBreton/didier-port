@@ -6,15 +6,15 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "clsx": "^2.1.1",             <-- AJOUTÉ
-    "tailwind-merge": "^2.3.0",    <-- (Souvent nécessaire si vous utilisez 'cn')
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0",
     "next": "^15.5.4",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.14",
-    "@types/clsx": "^0.0.3",      <-- AJOUTÉ (Crucial pour le Type checking)
+    "@types/clsx": "^0.0.3",
     "@types/node": "24.7.2",
     "@types/react": "19.2.2",
     "autoprefixer": "^10.4.21",
